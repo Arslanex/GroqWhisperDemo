@@ -1,0 +1,76 @@
+# Environment and Secret Files
+.env
+*.env
+.venv/
+venv/
+env/
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and Databases
+*.log
+*.sqlite3
+
+# Audio and Media Files (optional - uncomment if you don't want to track audio files)
+# *.wav
+# *.mp3
+# *.flac
+
+# Machine Learning and Model Files
+*.model
+*.pkl
+*.joblib
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.bak
+
+# Dependency Directories
+node_modules/
+
+# Transcription and Output Directories
+transcriptions/
+outputs/
+
+# Sensitive or Large Data
+*.csv
+*.json
+*.zip
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Mypy cache
+.mypy_cache/
+
+# Specific to this project
+demo.mp3
+demo_usage/
