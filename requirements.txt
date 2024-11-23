@@ -1,0 +1,16 @@
+# Core dependencies
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Audio processing libraries
+soundfile==0.12.1
+mutagen==1.47.0
+librosa==0.9.2
+pydub==0.25.1
+
+# Optional: Additional audio processing support
+numpy>=1.19.5
+scipy>=1.5.4
+
+# CLI support
+argparse
